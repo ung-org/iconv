@@ -109,4 +109,6 @@ int main(int argc, char *argv[])
 	do {
 		r |= convert(argv[optind++], conv, skipinvalid, suppress);
 	} while (optind < argc);
+
+	return 0;
 }
